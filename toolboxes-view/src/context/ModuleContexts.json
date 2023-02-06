@@ -1,0 +1,7 @@
+{
+  "WorkCenter": {
+    "name": "工作中心",
+    "route": "WorkCenter",
+    "component": "WorkCenterMainPanel"
+  }
+}
