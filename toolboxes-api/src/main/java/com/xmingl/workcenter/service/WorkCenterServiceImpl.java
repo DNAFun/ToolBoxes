@@ -30,4 +30,8 @@ public class WorkCenterServiceImpl extends BaseService implements WorkCenterServ
         return DataUtil.listDataNum(BASE_FILE_PATH + DateUtil.format(date, DateUtil.shortFormat));
     }
 
+    @Override
+    public boolean addDataTask(EventInfo info) {
+        return false;
+    }
 }

@@ -22,4 +22,11 @@ public interface WorkCenterService {
      * @return
      */
     int listDateTaskCount(Date date) throws IOException;
+
+    /**
+     * 新增日期任务
+     * @param info
+     * @return
+     */
+    boolean addDataTask(EventInfo info);
 }

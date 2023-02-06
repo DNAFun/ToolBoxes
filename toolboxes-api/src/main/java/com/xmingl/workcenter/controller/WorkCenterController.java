@@ -28,4 +28,9 @@ public class WorkCenterController {
         Date date = DateUtil.getDate(millsecord);
         return workCenterService.listDateTaskCount(date);
     }
+
+    @RequestMapping("addTask")
+    public boolean addDateTask(EventInfo info){
+        return workCenterService.addDataTask(info);
+    }
 }
